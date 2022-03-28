@@ -1,0 +1,29 @@
+.active {
+  transform: translatex(0) scale(1);
+  transition: transform 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+.leftBeforeActive {
+  transform: perspective(1000px) scale(.75) translatex(-68%) rotateY(35deg);
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.secondLeftBeforeActive {
+  transform: perspective(1000px) scale(.75) translatex(-73%) rotateY(35deg);
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.rightAfterActive {
+  transform: perspective(1000px) scale(.75) translatex(68%) rotateY(-35deg);
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.secondRightAfterActive {
+  transform: perspective(1000px) scale(.75) translatex(73%) rotateY(-35deg);
+  transition: transform 0.4s ease;
+  display: block;
+}

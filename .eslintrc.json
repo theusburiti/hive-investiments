@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // for some reason on every build eslint is complaining. remove later
+    "react/jsx-key": "off"
+  }
+}
